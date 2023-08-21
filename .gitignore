@@ -1,0 +1,47 @@
+# Arquivos e diretórios específicos para Node.js
+node_modules/
+dist/
+build/
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# Dependências geradas por ferramentas de build
+bower_components/
+jspm_packages/
+
+# Arquivos de ambiente
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Arquivos de cache
+.pnp/
+.pnp.js
+
+# Arquivos de build do TypeScript
+*.tsbuildinfo
+
+# Arquivos de desenvolvimento do TypeScript
+# *.ts
+
+# Arquivos de compilação JavaScript
+*.js
+*.js.map
+
+# Pacotes gerados pelo npm
+*.tgz
+
+# Dependências geradas pelo yarn
+.yarn/
+.yarn-integrity
+
+# Diretório de cobertura de teste
+coverage/
+
+# Arquivos de log e saída de teste
+logs/
+*.test-result.xml
