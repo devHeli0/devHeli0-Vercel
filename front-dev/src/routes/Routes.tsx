@@ -6,6 +6,7 @@ import {
 } from 'react-router-dom';
 import Home from '../pages/Home';
 import Contato from '../pages/Contato';
+import Projetos from '../pages/Projetos';
 
 function RoutesApp() {
   return (
@@ -13,9 +14,10 @@ function RoutesApp() {
       <Routes>
         <Route
           path="/"
-          element={<Navigate to="/paginaInicial" replace />}
+          element={<Navigate to="/home" replace />}
         />
-        <Route path="/paginaInicial" element={<Home />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/projetos" element={<Projetos/>} />
         <Route path="/contato" element={<Contato />} />
       </Routes>
     </BrowserRouter>
