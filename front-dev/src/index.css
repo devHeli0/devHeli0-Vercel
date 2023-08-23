@@ -28,22 +28,19 @@ body {
   scrollbar-width: thin;
 }
 
-/* styles.css */
 /* Estilos para a barra de rolagem no campo de mensagem */
 textarea {
-  scrollbar-width: thin; /* Para navegadores que suportam scrollbar-width */
+  scrollbar-width: thin; /* nem todos os browsers suportam scrollbar-width */
 }
 
-/* Estilos específicos para navegadores baseados em Chromium */
+/*isso só pega em chromium e derivados, procurar alternativa*/
 textarea::-webkit-scrollbar {
-  width: 8px; /* Largura da barra de rolagem */
+  width: 8px;
 }
 
 textarea::-webkit-scrollbar-thumb {
-  background-color: var(
-    --primary-color
-  ); /* Cor do thumb (parte deslizante da barra) */
-  border-radius: 4px; /* Borda arredondada do thumb */
+  background-color: var(--primary-color);
+  border-radius: 4px;
 }
 
 textarea::-webkit-scrollbar-thumb:hover {
@@ -71,11 +68,25 @@ textarea::-webkit-scrollbar-thumb:hover {
 }
 
 /* header */
-
 .header {
   background-color: var(--primary-color);
   color: var(--secondary-color);
   position: fixed;
+  /* text-size-adjust: inherit; */
+}
+
+button.activeLanguage {
+  background-color: #68767f;
+  color: #fff;
+  transition: background-color 0.8s, color 0.8s; 
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition-property: 3;
+}
+
+button.activeLanguage:hover {
+  background-color: #2d3748;
 }
 
 /* footer */
@@ -116,6 +127,6 @@ textarea::-webkit-scrollbar-thumb:hover {
 }
 
 .resized-charizard {
-  max-width: 80%; /* Ajustar a imagem para caber no contêiner */
-  max-height: 200px; /* Defina a altura máxima da imagem */
+  max-width: 80%; 
+  max-height: 200px; 
 }

@@ -1,0 +1,30 @@
+{
+    "header": {
+      "title": "devHeli0",
+      "home": "Home",
+      "projects": "Projects",
+      "contact": "Contact",
+      "github": "GitHub"
+    },
+    "home": {
+      "welcome": "Welcome to devHeli0!",
+      "intro": "I'm an enthusiastic Full Stack Developer with a distinctive background in Biology. My journey into the tech world began during my biology studies when I harnessed languages like R and Python for statistical analysis and data manipulation. As I embraced programming challenges, I immersed myself in development, cloud computing, and databases. Currently pursuing a degree in Systems Analysis and Development, I am excited to channel my software expertise into solving the most versatile problems."
+    },
+    "projects": {
+      "title": "My Projects"
+    },
+    "contact": {
+      "title": "Send me a message!",
+      "namePlaceholder": "Full Name",
+      "emailPlaceholder": "Email",
+      "subjectPlaceholder": "Subject",
+      "messagePlaceholder": "Message",
+      "submitButton": "Send"
+    },
+    "footer": {
+      "contact": "Contact us:",
+      "email": "contato@devheli0.com",
+      "rights": "\u00a9 {{year}} devHeli0. All rights reserved."
+    }
+  }
+  

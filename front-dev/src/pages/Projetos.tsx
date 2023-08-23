@@ -42,7 +42,11 @@ const Projetos: React.FC = () => {
                 className="text-blue-500 hover:underline inline-flex items-center"
               >
                 Ver no GitHub
-                <FontAwesomeIcon icon={faGithub} className="ml-2" size='xl' />
+                <FontAwesomeIcon
+                  icon={faGithub}
+                  className="ml-2"
+                  size="xl"
+                />
               </a>
             </div>
           ))}
