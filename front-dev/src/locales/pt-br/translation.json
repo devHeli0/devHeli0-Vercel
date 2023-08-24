@@ -1,30 +1,41 @@
 {
-    "header": {
-      "title": "devHeli0",
-      "home": "Página Inicial",
-      "projects": "Projetos",
-      "contact": "Contato",
-      "github": "GitHub"
+  "header": {
+    "title": "devHeli0",
+    "home": "Home",
+    "projects": "Projetos",
+    "contact": "Contato",
+    "github": "GitHub",
+    "languageSwitcherPtBr": "Português",
+    "languageSwitcherEn": "Inglês"
+  },
+  "home": {
+    "welcome": "Bem-vindo a devHeli0!",
+    "intro": "Sou um desenvolvedor Full Stack entusiasmado e com uma formação distinta em Biologia. Minha jornada no mundo da tecnologia começou durante meus estudos de biologia, quando utilizei linguagens como R e Python para análise estatística e manipulação de dados. Conforme abracei desafios de programação, mergulhei no desenvolvimento, computação em nuvem e bancos de dados. Atualmente cursando uma graduação em Análise e Desenvolvimento de Sistemas, estou empolgado para aplicar minha expertise em desenvolvimento de software na resolução dos problemas mais versáteis."
+  },
+  "projects": {
+    "title": "Meus Projetos",
+    "project1": {
+      "title": "Projeto 1",
+      "description": "Descrição do Projeto 1",
+      "viewOnGitHub": "Ver no GitHub",
+      "githubLink": "https://github.com/seuusuario/projeto1"
     },
-    "home": {
-      "welcome": "Bem-vindo a devHeli0!",
-      "intro": "Sou um desenvolvedor Full Stack entusiasmado e com uma formação distinta em Biologia. Minha jornada no mundo da tecnologia começou durante meus estudos de biologia, quando utilizei linguagens como R e Python para análise estatística e manipulação de dados. Conforme abracei desafios de programação, mergulhei no desenvolvimento, computação em nuvem e bancos de dados. Atualmente cursando uma graduação em Análise e Desenvolvimento de Sistemas, estou empolgado para aplicar minha expertise em desenvolvimento de software na resolução dos problemas mais versáteis."
-    },
-    "projects": {
-      "title": "Meus Projetos"
-    },
-    "contact": {
-      "title": "Envie-me uma mensagem!",
-      "namePlaceholder": "Nome Completo",
-      "emailPlaceholder": "E-mail",
-      "subjectPlaceholder": "Assunto",
-      "messagePlaceholder": "Mensagem",
-      "submitButton": "Enviar"
-    },
-    "footer": {
-      "contact": "Entre em contato:",
-      "email": "contato@devheli0.com",
-      "rights": "\u00a9 {{year}} devHeli0. Todos os direitos reservados."
+    "project2": {
+      "title": "Prontuário Eletrônico para Pacientes com Doenças Raras",
+      "description": "O projeto \"Prontuário Eletrônico para Pacientes\" com Doenças Raras propõe uma inovadora plataforma de registro eletrônico de dados de saúde, especialmente voltada para o acompanhamento e tratamento de pacientes com doenças raras. A plataforma é desenvolvida como uma aplicação REST, com funcionalidades acessíveis tanto por meio de interfaces de usuário quanto por integração com outros sistemas de saúde. A plataforma é composta por três perfis de usuários distintos: administrador, médico e paciente. Os pacientes podem ser cadastrados por médicos ou realizar um autocadastro. O sistema possui requisitos obrigatórios que abrangem desde a instalação e configuração até a funcionalidade de registro e gerenciamento de usuários e dados.",
+      "viewOnGitHub": "Ver no GitHub",
+      "githubLink": "https://github.com/seuusuario/projeto2"
     }
+  },
+  "contact": {
+    "title": "Envie-me uma mensagem!",
+    "namePlaceholder": "Nome Completo",
+    "emailPlaceholder": "E-mail",
+    "subjectPlaceholder": "Assunto",
+    "messagePlaceholder": "Mensagem",
+    "submitButton": "Enviar"
+  },
+  "footer": {
+    "rights": "\u00a9 {{year}} devHeli0. Todos os direitos reservados."
   }
-  
+}

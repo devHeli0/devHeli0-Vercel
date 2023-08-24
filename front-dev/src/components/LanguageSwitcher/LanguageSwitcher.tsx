@@ -2,7 +2,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 
 const LanguageSwitcher: React.FC = () => {
-  const { i18n } = useTranslation();
+  const { i18n, t } = useTranslation();
 
   const changeLanguage = (lng: string) => {
     i18n.changeLanguage(lng);
@@ -14,13 +14,13 @@ const LanguageSwitcher: React.FC = () => {
         onClick={() => changeLanguage('en')}
         className={i18n.language === 'en' ? 'activeLanguage' : ''}
       >
-        🇺🇸 English
+        🇺🇸 {t('header.languageSwitcherEn')}
       </button>
       <button
         onClick={() => changeLanguage('ptBr')}
         className={i18n.language === 'ptBr' ? 'activeLanguage' : ''}
       >
-        🇧🇷 Português
+        🇧🇷 {t('header.languageSwitcherPtBr')}
       </button>
     </div>
   );

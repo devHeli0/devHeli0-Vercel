@@ -7,10 +7,13 @@ import {
   faLinkedin,
   faYoutube,
 } from '@fortawesome/free-brands-svg-icons';
+import { useTranslation } from 'react-i18next';
 
 const Footer: React.FC = () => {
+  const { t } = useTranslation();
+  const currentYear = new Date().getFullYear();
   return (
-    <footer className="footer bg-gray-900 text-white bottom-0 w-full">
+    <footer className="footer text-white bottom-0 w-full">
       <div className="container mx-auto flex flex-col items-center">
         <div className="footer__social-icons flex mb-4">
           <a
@@ -44,22 +47,8 @@ const Footer: React.FC = () => {
             <FontAwesomeIcon icon={faYoutube} size="2x" />
           </a>
         </div>
-        <div className="footer__contact-info mb-4">
-          <p>
-            Entre em contato:{' '}
-            <a
-              href="mailto:contato@devheli0.com"
-              className="text-blue-400 hover:text-blue-600 transition duration-300"
-            >
-              contato@devheli0.com
-            </a>
-          </p>
-        </div>
         <div className="footer__copyright mb-4">
-          <p>
-            &copy; {new Date().getFullYear()} devHeli0. Todos os
-            direitos reservados.
-          </p>
+          <p> {t('footer.rights', { year: currentYear })}</p>
         </div>
       </div>
     </footer>
