@@ -1,0 +1,6 @@
+[submodule "back-dev"]
+	path = back-dev
+	url = https://github.com/devHeli0/back-dev
+[submodule "front-dev"]
+	path = front-dev
+	url = https://github.com/devHeli0/front-dev
